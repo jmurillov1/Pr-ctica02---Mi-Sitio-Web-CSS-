@@ -1,0 +1,53 @@
+/*
+* {
+    border: 2px solid blue;
+}
+*/
+
+#menuPrincipal {
+    width: 15%;
+    /*border-width: 3px;
+    border-top-color: chocolate;
+    border-top-style: dotted;*/
+    border: 3px chocolate double;
+    float: left;
+}
+
+#contenido {
+    width: 65%;
+    background-color: burlywood;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
+    /*border-width: 2px;
+    border-top-color: black;
+    border-top-style: double;*/
+    border: 2px black double;
+    float: left;
+}
+
+#asi {
+    width: 15%;
+    margin-left: 5px;
+    float: left;
+}
+
+#ft {
+    width: 100%;
+    float: right;
+}
+
+img.logo {
+    width: 1250px;
+    height: 500px;
+}
+
+img.imagen150 {
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    background-image: url("../images/consecuencias.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
