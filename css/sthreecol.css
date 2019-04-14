@@ -1,17 +1,16 @@
 #menuPrincipal {
     width: 20%;
-    border: 3px chocolate double;
-    line-height: 5px;
+    border: 3px double;
+    line-height: 50px;
     border-radius: 5px;
     float: left;
 }
 
 #contenido {
     width: 75%;
-    background-color: #C9DBDA;
     margin-left: 10px;
     padding: 5px 20px 5px 20px;
-    border: 2px black solid;
+    border: 2px solid;
     float: left;
 }
 

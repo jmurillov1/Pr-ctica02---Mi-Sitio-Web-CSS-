@@ -1,17 +1,14 @@
 #menuPrincipal {
     width: 20%;
-    background-color: #75DBCD;
-    border: 3px chocolate double;
+    border: 3px solid;
     border-radius: 5px;
-    
     float: left;
 }
 
 #contenido {
     width: 75%;
-    background-color: #75DBCD;
     margin-left: 10px;
     padding: 5px 20px 5px 20px;
-    border: 2px black solid;
+    border: 2px solid;
     float: left;
 }

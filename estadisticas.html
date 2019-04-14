@@ -16,18 +16,25 @@
 
     <meta charset="utf-8" />
     <title>Estadisticas - Animales en Peligro de Extinción</title>
+    <link href="css/stwocol.css" rel="stylesheet" type="text/css" />
+    <link href="css/smultimedia.css" rel="stylesheet" type="text/css" />
+    <link href="css/stables.css" rel="stylesheet" type="text/css" />
+    <link href="css/scolores.css" rel="stylesheet" type="text/css" />
+    <link href="css/stext.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <header>
-        <a href="index.html"> <img src="images/logo.png" alt="Animales en Peligro de Extinción" /> </a>>
-        <nav>
+        <a href="index.html"> <img class="logo" src="images/logo.png" alt="Animales en Peligro de Extinción" /> </a>>
+        <h1>Animales en Peligro de Extinción</h1>
+        <nav id="menuPrincipal">
             <ul>
                 <li> <a href="acerca.html"> Definiciones </a> </li>
                 <li> <a href="causas.html"> Causas</a> </li>
                 <li> <a href="consecuencias.html"> Consecuencias </a> </li>
                 <li> <a href="estadisticas.html"> Estadisticas</a> </li>
                 <li> <a href="animales.html">Lista de Animales</a> </li>
+                <li> <a href="envio.html">Formulario de Acceso</a> </li>
             </ul>
         </nav>
     </header>
@@ -35,18 +42,18 @@
         <h2> Estadisticas - Animales en Peligro de Extinción </h2>
         <article>
             <img src="images/estadistica.png" alt="" />
-            <table border="1" style="width: 100%">
+            <table id="tbl">
                 <caption> Número de animales en peligro de extinción con el número de especies conocidas de los mismos.
                 </caption>
                 <colgroup>
-                    <col style="width: 20%" />
-                    <col style="width: 40%" />
-                    <col style="width: 40%" />
+                    <col />
+                    <col />
+                    <col />
                 </colgroup>
                 <thead>
                     <tr>
-                        <th rowspan="2">Clases de Animales</th>
-                        <th colspan="2">Especies Animales</th>
+                        <th>Clases de Animales</th>
+                        <th>Especies Animales</th>
                     </tr>
                     <tr>
                         <th>Número de Especies Animales conocidas</th>
@@ -55,7 +62,7 @@
                 </thead>
                 <tfoot>
                     <tr>
-                        <td colspan="3">En la siguiente tabla, se relaciona el número de animales en peligro de
+                        <td>En la siguiente tabla, se relaciona el número de animales en peligro de
                             extinción con el número de especies conocidas de los mismos. </td>
                     </tr>
                 </tfoot>

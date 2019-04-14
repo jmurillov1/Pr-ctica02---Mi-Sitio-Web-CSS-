@@ -1,0 +1,19 @@
+#tbl {
+    border: 1px solid;
+    width: 100%;
+}
+
+table colgroup col {
+    width: 20%;
+    width: 40%;
+    width: 40%;
+}
+
+th {
+    rowspan: "2";
+    column-span: "2";
+}
+
+#tbl tfoot td {
+    column-span: "3";
+}

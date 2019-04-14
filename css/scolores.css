@@ -1,0 +1,21 @@
+#menuPrincipal {
+    background-color: #75DBCD;
+    border-color: chocolate
+}
+
+#contenido {
+    background-color: #C9DBDA;
+    border-color: black;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: black;
+}
