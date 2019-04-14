@@ -1,6 +1,9 @@
 #menuPrincipal {
     width: 20%;
+    background-color: #75DBCD;
     border: 3px chocolate double;
+    border-radius: 5px;
+    
     float: left;
 }
 

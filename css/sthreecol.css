@@ -1,6 +1,8 @@
 #menuPrincipal {
     width: 20%;
     border: 3px chocolate double;
+    line-height: 5px;
+    border-radius: 5px;
     float: left;
 }
 
