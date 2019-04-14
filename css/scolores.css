@@ -1,5 +1,5 @@
 #menuPrincipal {
-    background-color: #75DBCD;
+    background-color: #F5CDA7;
     border-color: chocolate
 }
 
@@ -18,4 +18,8 @@ h2 {
 
 h3 {
     color: black;
+}
+
+#asi{
+    background-color: #DCDBA8;
 }

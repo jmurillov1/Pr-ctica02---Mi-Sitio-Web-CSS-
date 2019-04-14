@@ -7,11 +7,27 @@ h1 {
 h2 {
     font-size: 20pt;
     font-family: 'Arial';
-    text-decoration: underline double;
+    text-decoration: underline dashed;
 }
 
 h3 {
     font-size: 15pt;
     font-family: 'Courier New';
     text-decoration: underline dotted;
+}
+
+nav a:link {
+    color: #006;
+}
+
+nav a:visited {
+    color: #999;
+}
+
+nav a:focus {
+    color: #f00;
+}
+
+nav a:hover {
+    color: #ff0;
 }
