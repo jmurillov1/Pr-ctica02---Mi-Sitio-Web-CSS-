@@ -1,20 +1,14 @@
 #menuPrincipal {
-    width: 15%;
-    /*border-width: 3px;
-    border-top-color: chocolate;
-    border-top-style: dotted;*/
+    width: 20%;
     border: 3px chocolate double;
     float: left;
 }
 
 #contenido {
-    width: 65%;
-    background-color: burlywood;
+    width: 75%;
+    background-color: #75DBCD;
     margin-left: 10px;
     padding: 5px 20px 5px 20px;
-    /*border-width: 2px;
-    border-top-color: black;
-    border-top-style: double;*/
-    border: 2px black double;
+    border: 2px black solid;
     float: left;
 }

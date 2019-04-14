@@ -1,0 +1,20 @@
+#menuPrincipal {
+    width: 20%;
+    border: 3px chocolate double;
+    float: left;
+}
+
+#contenido {
+    width: 75%;
+    background-color: #C9DBDA;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
+    border: 2px black solid;
+    float: left;
+}
+
+#asi {
+    width: 15%;
+    margin-left: 5px;
+    float: left;
+}
