@@ -4,8 +4,12 @@
 }
 
 #contenido {
-    background-color: #DCDBA8;
+    background-color: #F5CDA7;
     border-color: black;
+}
+
+article{
+    background-color: #DCDBA8;
 }
 
 body {

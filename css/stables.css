@@ -3,11 +3,11 @@
     border: 1px solid;
 }
 
-col1{
+#col1{
     width: 20%;
 }
 
-col2,col3{
+#col2,#col3{
     width: 40%;
 }
 
