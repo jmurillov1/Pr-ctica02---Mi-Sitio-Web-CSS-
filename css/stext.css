@@ -16,18 +16,19 @@ h3 {
     text-decoration: underline dotted;
 }
 
-nav a:link {
-    color: #006;
+p {
+    font-size: 12pt;
+    font-family: 'Times New Roman';
 }
 
-nav a:visited {
-    color: #999;
+#mensaje {
+    font-family: Arial;
 }
 
-nav a:focus {
-    color: #f00;
+label {
+    letter-spacing: 1px;
 }
 
-nav a:hover {
-    color: #ff0;
+#nombre, #email {
+    font-size: 14px;
 }

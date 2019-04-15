@@ -3,7 +3,17 @@ img.logo {
     height: 300px;
 }
 
-img{
+img {
     width: 400px;
     height: 300px;
+}
+
+img.larga {
+    width: 1000px;
+    height: 300px;
+}
+
+iframe.video {
+    width: 600px;
+    height: 355px;
 }

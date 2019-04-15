@@ -1,11 +1,15 @@
 #menuPrincipal {
-    background-color: #F5CDA7;
+    background-color: #75CDDB;
     border-color: chocolate
 }
 
 #contenido {
-    background-color: #C9DBDA;
+    background-color: #DCDBA8;
     border-color: black;
+}
+
+body{
+    background-color: #C9DBBA;
 }
 
 h1 {
@@ -20,6 +24,38 @@ h3 {
     color: black;
 }
 
-#asi{
+p {
+    color: black;
+}
+
+#asi {
     background-color: #DCDBA8;
+}
+
+nav a:link {
+    color: #000;
+}
+
+nav a:visited {
+    color: #006;
+}
+
+nav a:focus {
+    color: #f00;
+}
+
+nav a:hover {
+    color: #ff0;
+}
+
+#mensaje{
+    background-color: #fff;
+}
+
+#nombre, #email{
+    background-color:white;
+}
+
+#button{
+    color: #000;
 }
