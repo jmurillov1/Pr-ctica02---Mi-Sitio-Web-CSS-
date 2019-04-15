@@ -30,7 +30,15 @@ nav a {
     text-decoration-line: none;
 }
 
+a,abbr {
+    text-decoration-line: none;
+}
+
 nav a:hover {
+    text-decoration-line: underline;
+}
+
+a:hover {
     text-decoration-line: underline;
 }
 
