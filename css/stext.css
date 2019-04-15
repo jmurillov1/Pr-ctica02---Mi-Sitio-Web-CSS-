@@ -16,6 +16,24 @@ h3 {
     text-decoration: underline dotted;
 }
 
+#asi {
+    font-size: 12pt;
+    font-family: 'Arial';
+}
+
+#ft {
+    font-size: 12pt;
+    font-family: "Cambria";
+}
+
+nav a {
+    text-decoration-line: none;
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+}
+
 p {
     font-size: 12pt;
     font-family: 'Times New Roman';
@@ -31,4 +49,12 @@ label {
 
 #nombre, #email {
     font-size: 14px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: left;
 }

@@ -48,26 +48,20 @@
                         mismos.
                     </caption>
                     <colgroup>
-                        <col />
-                        <col />
-                        <col />
+                        <col id="col1" />
+                        <col id="col2" />
+                        <col id="col3" />
                     </colgroup>
                     <thead>
                         <tr>
-                            <th>Clases de Animales</th>
-                            <th>Especies Animales</th>
+                            <th rowspan="2">Clases de Animales</th>
+                            <th colspan="2">Especies Animales</th>
                         </tr>
                         <tr>
                             <th>Número de Especies Animales conocidas</th>
                             <th>Número de Especies Animales en extinción</th>
                         </tr>
                     </thead>
-                    <tfoot>
-                        <tr>
-                            <td>En la siguiente tabla, se relaciona el número de animales en peligro de
-                                extinción con el número de especies conocidas de los mismos. </td>
-                        </tr>
-                    </tfoot>
                     <tbody>
                         <tr>
                             <th>Invertebrados</th>
@@ -80,6 +74,13 @@
                             <td>2.464</td>
                         </tr>
                     </tbody>
+                    <tfoot id="tf">
+                        <tr>
+                            <td colspan="3">En la siguiente tabla, se relaciona el número de animales en peligro de
+                                extinción con el número de especies conocidas de los mismos.
+                            </td>
+                        </tr>
+                    </tfoot>
                 </table>
                 <h3> Animales en Peligro de Extinción 2018</h3>
                 <p>

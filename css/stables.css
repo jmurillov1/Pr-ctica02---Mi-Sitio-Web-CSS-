@@ -1,19 +1,21 @@
 #tbl {
-    border: 1px solid;
     width: 100%;
+    border: 1px solid;
 }
 
-table colgroup col {
+col1{
     width: 20%;
-    width: 40%;
+}
+
+col2,col3{
     width: 40%;
 }
 
-th {
-    rowspan: "2";
-    column-span: "2";
+th, td {
+    vertical-align: center;
+    border: 1px solid;
 }
 
-#tbl tfoot td {
-    column-span: "3";
+#tf{
+    width: 100%;
 }
